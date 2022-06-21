@@ -14,7 +14,7 @@
 	<name>NossaFaunaAPI</name>
 	<description>Projeto de oficina UTFPR</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 	<repositories>
 		<repository>
