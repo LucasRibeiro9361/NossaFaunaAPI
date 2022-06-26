@@ -30,7 +30,7 @@ public class AnimalResource {
     public Optional<Animal> listaAnimalPorId(@PathVariable(value="id") long id ){
         return animalRepository.findById(id);
     }
-    @PostMapping("/animais")
+    @GetMapping("/animais")
     @ApiOperation(value="")
     public List<Animal> listaAnimais(){
         return animalRepository.findAll();
