@@ -12,6 +12,15 @@ public class Categoria implements Serializable {
     private String titulo;
     private String url_img;
 
+    public Categoria(long id_categoria, String titulo, String url_img) {
+        this.id_categoria = id_categoria;
+        this.titulo = titulo;
+        this.url_img = url_img;
+    }
+
+    public Categoria() {
+    }
+
     public long getId_categoria() {
         return id_categoria;
     }

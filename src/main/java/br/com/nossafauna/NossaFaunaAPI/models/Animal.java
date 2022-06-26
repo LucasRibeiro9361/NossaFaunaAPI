@@ -28,6 +28,26 @@ public class Animal implements Serializable {
     private boolean favorito;
     private String background_image;
 
+    public Animal(long id_animal, Categoria id_categoria, String nome, String nome_cientifico, String img_profile_url, String caracteristica, String alimentacao, String reproducao, String habitat, String import_eco, String pegada_img_url, boolean encontrado, boolean favorito, String background_image) {
+        this.id_animal = id_animal;
+        this.id_categoria = id_categoria;
+        this.nome = nome;
+        this.nome_cientifico = nome_cientifico;
+        this.img_profile_url = img_profile_url;
+        this.caracteristica = caracteristica;
+        this.alimentacao = alimentacao;
+        this.reproducao = reproducao;
+        this.habitat = habitat;
+        this.import_eco = import_eco;
+        this.pegada_img_url = pegada_img_url;
+        this.encontrado = encontrado;
+        this.favorito = favorito;
+        this.background_image = background_image;
+    }
+
+    public Animal() {
+    }
+
     public long getId_animal() {
         return id_animal;
     }
